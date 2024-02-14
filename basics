@@ -1,0 +1,106 @@
+1.
+
+
+#include<iostream>
+using namespace std;
+int main(){
+    int x;
+    cout <<"enter first number\n";
+    cin>> x;
+    int y, m;
+    cout<<"enter second number and value for taking modulus\n";
+    cin >> y >> m;
+    int z = (x * y) % m;
+    cout <<"output is: " <<z;
+}
+output:
+enter first number
+2
+enter second number and value for taking modulus
+4
+8
+output is: 0
+
+2.
+
+#include<iostream>
+using namespace std;
+int main(){
+    int x;
+    cout<<"enter first number\n";
+    cin>>x;
+    int y;
+    cout<<"enter second number\n";
+    cin>>y;
+    cout<<(x!=y) <<" "<< (x>=y);
+
+}
+output:
+enter first number
+3
+enter second number
+2
+1 1
+
+
+3.#include <iostream>
+using namespace std;
+int main(){
+    int x,y;
+    cin>>x>>y;
+    x+=y;
+    x-=y;
+    x%=y;
+    cout<<x;
+    }
+
+
+
+    4.
+
+
+
+    #include<iostream>
+using namespace std;
+int main(){
+    double radius, height, volume;
+    cout<<"enter the radius of the cylinder: ";
+    cin>> radius;
+    cout<<"enter the height of the cylinder: ";
+    cin>>height;
+    volume = 3.1415 * height * radius * radius;
+    cout<<"the volume of the cylinder is: " << volume <<endl;
+}
+
+
+
+
+5.
+
+
+#include<iostream>
+using namespace std;
+int main (){
+    char char1,char2;
+    int ascii1, ascii2, difference;
+    cout<<"enter the first character: ";
+    cin >> char1;
+    cout << "enter the second character: ";
+    cin >> char2;
+    ascii1 = int(char1);
+    ascii2 = int(char2);
+    difference = abs(ascii1 - ascii2);
+    cout << "the difference between the ascii value of "<<char1<<"and"<<"char2"<<" is: "<< difference <<endl;
+}
+
+
+
+6.
+
+
+#include<iostream>
+using namespace std;
+int main (){
+    int i = (4+7/5*6*6+9)%100;
+    cout<<i;
+}
