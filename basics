@@ -1,4 +1,4 @@
-1.
+Q1. Find the output for this code.
 
 
 #include<iostream>
@@ -21,7 +21,7 @@ enter second number and value for taking modulus
 8
 output is: 0
 
-2.
+Q2. Find the output for this code.
 
 #include<iostream>
 using namespace std;
@@ -42,6 +42,7 @@ enter second number
 2
 1 1
 
+Q4. Find the output for this code.
 
 3.#include <iostream>
 using namespace std;
@@ -53,10 +54,13 @@ int main(){
     x%=y;
     cout<<x;
     }
+output:
+2
+3
+2
 
 
-
-    4.
+    Q4. WAP for finding the volume of the cylinder by taking radius and height as input.
 
 
 
@@ -75,7 +79,7 @@ int main(){
 
 
 
-5.
+Q5. WAP to find the difference between ASCII of two characters ,take them as input .
 
 
 #include<iostream>
@@ -95,7 +99,14 @@ int main (){
 
 
 
-6.
+Q6. Find the output of the below code
+#include <iostream>
+using namespace std;
+int main()
+{
+int i = ( 4 + 7 / 5 * 6 * 6+9 )% 100 ;
+cout<<i;
+}
 
 
 #include<iostream>
@@ -104,3 +115,5 @@ int main (){
     int i = (4+7/5*6*6+9)%100;
     cout<<i;
 }
+output:
+49
